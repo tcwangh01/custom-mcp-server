@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "image-tools-server-docker": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-v", "/Users/timmacpro/AiProjects/claude-projects/custom_mcp_server/images:/app/images",
+        "-v", "/Users/timmacpro/AiProjects/claude-projects/custom_mcp_server/input:/app/input",
+        "-v", "/Users/timmacpro/AiProjects/claude-projects/custom_mcp_server/output:/app/output",
+        "mcp-toy-image-tools-server"
+      ]
+    }
+  }
+}
